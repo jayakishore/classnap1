@@ -1,0 +1,159 @@
+.navbar-fixed-top + section{
+	padding-top: 70px;
+}
+.appear{
+	visibility: hidden;
+}
+.animated{
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	-ms-animation-duration:1s;
+	-o-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.h1{font-size: 32px}
+
+.device {
+	border-radius: 6px !important;
+	box-shadow: -15px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.device header{
+	border-radius: 5px 5px 0 0;
+}
+.device.phone{
+	border-radius: 15px !important;
+}
+.device.phone header{
+	border-radius: 14px 14px 0 0;
+}
+.device.phone footer{
+	border-radius:0 0 14px 14px;
+}
+.navbar{
+	border: none;
+	-webkit-transition: padding ease-in-out 0.2s;
+    transition: padding ease-in-out 0.2s;
+}
+.navbar.affix-top{
+	padding: 0;
+}
+.navbar-nav > li > a{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.navbar-nav .dropdown-submenu .dropdown-menu{
+	left: 0;
+	top: 100%;
+	border: none;
+	background-color: #f5f5f5;
+	min-width: 220px;
+}
+
+#responsive{
+	background: url(../images/render-1.png) #25313e center top no-repeat;
+	background-size: cover;
+}
+
+#responsive > div{
+	background-color: #25313e;
+	background-color: rgba(37, 49, 62, 0.95)
+}
+    .back-to-top { 
+    display: block; width: 34px; height: 34px;
+    text-align: center; line-height: 32px; color: #fff; font-size: 18px;
+    background: #00ACEE;
+    border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; 
+    cursor: pointer; text-align: center;    
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+    display: none;
+	padding-top:7px;
+	}
+	#sign_box { 
+    display: block; width: 34px; height: 34px;
+    text-align: center; line-height: 32px; color: #fff; font-size: 18px;
+    background: #00ACEE;
+    cursor: pointer; text-align: center;    
+    position: fixed;
+    bottom: 2%;
+    left: 1%;
+    display: none;
+	}
+	
+	.back-to-top:hover{ color:#fff;}
+#header_newsletter {
+   padding:20px 0;
+}
+
+#header_newsletter_input {
+   height:35px;
+   padding:0
+}
+
+#header_newsletter_button {
+	padding:12px 12px;
+	font-size:16px;
+}
+#home_bg{
+  background-image:url('../images/header_bg.jpg')
+}
+#features{
+  background-image:url('../images/features_bg.png')
+}
+
+#home_carousel{
+  margin:100px 0 0 0;
+}
+
+.carousel-inner .item {
+   font-size:32px;font-family:'Exo 2', sans-serif;font-weight:900;color:#ffffff;
+}
+
+.font-thin{
+font-size:32px;font-family:'Exo 2', sans-serif;font-weight:300;
+}
+
+#network_image{
+	padding-left:10%;
+	padding-top:1%;
+}
+
+#tagline_slider .item {
+font-size:24px;font-family:'Exo 2', sans-serif;font-weight:300;color:#ffffff
+}
+
+#features .m-t-none{
+font-size:28px;font-family:'Exo 2', sans-serif;font-weight:300;
+}
+
+#features .m-t-lg{
+text-align:justify;font-size:18px;font-family:'Exo 2', sans-serif;font-weight:300;
+}
+#admission .tagline{
+color:#ffffff;font-size:40px;font-family: 'Exo 2', sans-serif;font-weight:100;
+}
+#admission .tagline span{
+font-family: 'Exo 2', sans-serif;font-weight:900;
+}
+#newsletter p{
+color:#3F3F3F;font-size:24px;font-family: 'Exo 2', sans-serif;font-weight:100;
+}
+
+
+
+/*phone*/
+@media (max-width: 767px) {
+	.navbar-fixed-top + section{
+		padding-top: 50px;
+	}
+	.navbar.affix-top{
+		padding: 0;
+	}
+	.navbar-brand{
+		float: left !important;
+	}
+	.h1{font-size: 20px}
+}
